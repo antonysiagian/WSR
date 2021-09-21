@@ -1,0 +1,31 @@
+{
+  "name": "y",
+  "version": "y",
+  "description": "y",
+  "private": true,
+  "repository": "y",
+  "author": "y",
+  "license": "y",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@salesforce-ux/design-system": "^2.16.1",
+    "@salesforce/design-system-react": "^0.10.38",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.2.1"
+  }
+}
