@@ -9,11 +9,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "index.html")
     }),
-    new CopyPlugin({
-      patterns: [
-        { from: "assets", to: "assets" },
-      ],
-    })
+    // new CopyPlugin({
+    //   patterns: [
+    //     { from: "assets", to: "assets" },
+    //   ],
+    // })
   ],
   module: {
     rules: [
