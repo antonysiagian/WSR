@@ -13,7 +13,6 @@ store.subscribe(() =>  localStorage.setItem(APP_ID, JSON.stringify(store.getStat
 ReactDOM.render(
   <Provider store={store}>
     <App />
-   </Provider> 
-    ,
+   </Provider> ,
   document.getElementById('root')
 );
