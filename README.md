@@ -1,1 +1,1 @@
-# WebPack5 - Salesforce Lightning - React
+# WebPack5 - React
